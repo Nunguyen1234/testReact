@@ -60,7 +60,10 @@
 import React from 'react';
 
 function Greeting({ name }) {
+    console.log();
+
     return <h1>Yo, {name}!</h1>;
+
 }
 
 Greeting.defaultProps = {
